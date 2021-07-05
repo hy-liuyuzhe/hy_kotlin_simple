@@ -13,6 +13,12 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 r_b.visibility = View.VISIBLE
                 r_b.text = "底部右文案底部右文案底部右文案底部右文案底部右文案底部右文案底部右文案底部右文案底部右文案底部右文案"
+
+                left_top.visibility = View.VISIBLE
+                left_top.text = "顶部左边"
+
+                r_top.visibility = View.VISIBLE
+                r_top.text = "顶部右边"
             }
     }
 }
